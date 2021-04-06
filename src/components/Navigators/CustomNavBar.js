@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon, MDBContainer } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-class NavBar extends React.Component {
+class CustomNavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -67,4 +67,4 @@ class NavBar extends React.Component {
   }
 }
 
-export default NavBar;
+export default CustomNavBar;
