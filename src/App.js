@@ -1,11 +1,12 @@
 import './App.css';
-import NavBar from './components/Navigators/Navbar';
+import CustomNavBar from './components/Navigators/CustomNavBar';
+
 
 
 function App() {
   return (
     <div className="App">
-  <NavBar/>
+  <CustomNavBar/>
     </div>
   );
 }
