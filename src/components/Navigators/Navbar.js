@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBView, MDBMask } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-class FullPageIntroWithNonFixedNavbar extends React.Component {
+class Navbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -66,4 +66,4 @@ class FullPageIntroWithNonFixedNavbar extends React.Component {
   }
 }
 
-export default FullPageIntroWithNonFixedNavbar;
+export default Navbar;
