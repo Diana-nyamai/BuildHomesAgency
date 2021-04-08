@@ -1,119 +1,63 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router} from 'react-router-dom';
-import {Carousel} from 'react-bootstrap';
-import {Nav,Navbar} from 'react-bootstrap';
-import {Animated} from "react-animated-css";
-
-
-
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class CustomNavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       collapse: false,
-      isWideEnough: false,
+      isWideEnough: false
     };
     this.onClick = this.onClick.bind(this);
   }
 
   onClick() {
     this.setState({
-      collapse: !this.state.collapse,
+      collapse: !this.state.collapse
     });
   }
 
   render() {
     return (
       <div>
-      
         <header>
           <Router>
-         
-            <MDBNavbar color="pink" fixed="top" dark expand="md" scrolling transparent>
-              <Navbar.Brand href="/">
-               <img src="../Images/logo.png" alt="logo"/>
-              </Navbar.Brand>
+            <MDBNavbar color="indigo" dark expand="md" fixed="top">
+              <MDBNavbarBrand href="/">
+                <strong>Navbar</strong>
+              </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav right>
+                <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <MDBNavLink to="#">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                  <Nav.Link href="/AboutPage">About Page</Nav.Link>
-                    </MDBNavItem> 
-                   <MDBNavItem>
-                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
-                </MDBNavItem>
-                  <MDBNavItem>
-                    <Nav.Link href="/EventPage">Events</Nav.Link>
+                    <MDBNavLink to="#">Link</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
+                    <MDBNavLink to="#">Profile</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-        </Router>
+          </Router>
 
-          <Carousel>
-          
-
-          <Carousel.Item interval={3000}>
-          <MDBView src="../Images/landing1.jpeg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
-              <h2 className="head1" style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 className="head2" style={{fontSize:'70'}}>FOR LOW INCOME EARNERS</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 style={{overflowY:'hidden'}}>Today in Kenya,
-              </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
-              <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
+          <MDBView src="https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg">
+            <MDBMask overlay="black-light" className="flex-center flex-column text-white text-center">
+              <h2>This Navbar is fixed</h2>
+              <h5>It will always stay visible on the top, even when you scroll down</h5>
+              <br />
+              <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
             </MDBMask>
-          </MDBView></Carousel.Item>
-          
-          <Carousel.Item interval={3000}>
-          <MDBView src="../Images/landing2.jpeg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
-              <h2 className="head1" style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 className="head2" style={{fontSize:'70'}}>FOR LOW INCOME EARNERS</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 style={{overflowY:'hidden'}}>Today in Kenya,
-              </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
-              <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
-            </MDBMask>
-          </MDBView></Carousel.Item>
-
-          <Carousel.Item interval={3000}>
-          <MDBView src="../Images/landing3.jpeg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
-              <h2 className="head1" style={{fontSize:'70px'}} >HEALTHY MEALS </h2>
-              <h2 className="head2" style={{fontSize:'70'}}>FOR LOW INCOME EARNERS</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 style={{overflowY:'hidden'}}>Today in Kenya,
-              </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
-              <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
-            </MDBMask>
-          </MDBView></Carousel.Item>
-
-         
-          
-          </Carousel>
-
-          
+          </MDBView>
         </header>
 
-
-        {/*main content*/}
         <main>
-        
+          <MDBContainer className="text-center my-5">
+            <p align="justify">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </MDBContainer>
         </main>
       </div>
     );
