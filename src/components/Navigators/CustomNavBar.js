@@ -4,10 +4,7 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
-import UpcomingEvents from './UpcomingEvents';
-import Volunteers from './Volunteers';
-import BecomeVolunteer from './BecomeVolunteer';
-import LatestNews from './LatestNews';
+
 
 
 
