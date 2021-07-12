@@ -1,18 +1,8 @@
 import React from 'react'
 import './NavBar.css';
-import { Layout, Menu } from 'antd';
-import {
-  AppstoreOutlined,
-  BarChartOutlined,
-  CloudOutlined,
-  ShopOutlined,
-  TeamOutlined,
-  UserOutlined,
-  UploadOutlined,
-  VideoCameraOutlined,
-} from '@ant-design/icons';
+import { Layout, Menu, Breadcrumb } from 'antd';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Footer } = Layout;
 
 function NavBar() {
     return (
@@ -25,7 +15,7 @@ function NavBar() {
             left: 0,
           }}
         >
-          <div className="logo" />
+          <div className="logo"  style={{height:60}}/>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>
             <Menu.Item key="1" icon={<UserOutlined />}>
               nav 1
