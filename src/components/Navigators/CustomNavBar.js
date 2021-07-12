@@ -18,12 +18,11 @@ class CustomNavBar extends React.Component {
   }
 
   render() {
-    
     return(
       <div>
         <Router>
           <header>
-            <MDBNavbar style={bgPink} dark expand="md" scrolling fixed="top">
+            <MDBNavbar dark expand="md" scrolling fixed="top">
               <MDBNavbarBrand href="/">
                   <strong>Navbar</strong>
               </MDBNavbarBrand>
@@ -58,7 +57,7 @@ class CustomNavBar extends React.Component {
             </MDBNavbar>
           </header>
         </Router>
-        <MDBContainer style={container} className="text-center mt-5 pt-5">
+        <MDBContainer  className="text-center mt-5 pt-5">
           <h2>This Navbar is fixed</h2>
           <h5>It will always stay visible on the top, even when you scroll down</h5>
           <br/>
