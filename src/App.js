@@ -1,7 +1,7 @@
 import './App.css';
 
 
-ufunction App() {
+function App() {
   return (
     <div className="App">
     </div>
