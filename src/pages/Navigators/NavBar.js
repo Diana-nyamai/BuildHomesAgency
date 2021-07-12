@@ -153,7 +153,7 @@ function NavBar() {
               content
             </div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>Ant Design ©  Created by Ant UED</Footer>
+          <Footer style={{ textAlign: 'center' }}>Ant Design &copy; {new Date().getFullYear()} Created by Ant UED</Footer>
         </Layout>
       </Layout>
     )
