@@ -3,13 +3,12 @@
     padding: 24px;
     background: #fff;
   }
-  #components-layout-demo-top 
 .logo {
     float: left;
     width: 120px;
     height: 31px;
     margin: 16px 24px 16px 0;
-    background: rgba(192, 38, 38, 0.877);
+    background:url('../../assets/images/bh.png');
   }
   
 .ant-row-rtl #components-layout-demo-top 
