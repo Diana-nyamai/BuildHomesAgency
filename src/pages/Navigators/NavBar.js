@@ -23,7 +23,7 @@ function NavBar() {
           </Breadcrumb>
           <div className="site-layout-content">Content</div>
         </Content>
-        <Footer style={{ textAlign: 'center' }}>Ant Design &copy; {new Date().getFullYear()} Created by Ant UED</Footer>
+        <Footer style={{ textAlign: 'center' }}> &copy; {new Date().getFullYear()} Created by Ant UED</Footer>
       </Layout>
     )
 }
