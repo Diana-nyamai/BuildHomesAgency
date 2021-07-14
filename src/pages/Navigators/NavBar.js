@@ -21,7 +21,7 @@ function NavBar() {
             <Breadcrumb.Item>List</Breadcrumb.Item>
             <Breadcrumb.Item>App</Breadcrumb.Item>
           </Breadcrumb>
-          <div className="site-layout-content">Content</div>
+          <div className="site-layout-content"></div>
         </Content>
         <Footer style={{ textAlign: 'center' }}> &copy; {new Date().getFullYear()} Created by Ant UED</Footer>
       </Layout>
