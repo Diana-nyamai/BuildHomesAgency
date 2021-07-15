@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from 'antd';
+import BH from '../../assets/images/BH.png'
 
 const contentStyle = {
     height: '160px',
@@ -14,7 +15,7 @@ function CarouselHome() {
     return (
         <Carousel autoplay>
     <div>
-      <h3 style={contentStyle}><img src="../../assets/images/BH.png" alt="caro"/></h3>
+      <h3 style={contentStyle}><img src={BH} alt="caro"/></h3>
     </div>
     <div>
       <h3 style={contentStyle}>2</h3>
