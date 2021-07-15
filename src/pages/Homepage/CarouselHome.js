@@ -7,24 +7,24 @@ const contentStyle = {
     color: '#000',
     lineHeight: '400px',
     textAlign: 'center',
-    background: '#fff',
+    background: '#000',
   };
   
 
 function CarouselHome() {
     return (
         <Carousel autoplay>
-    <div>
-      <img style={contentStyle} src={BH} alt="caro"/>
+    <div style={contentStyle}>
+      <img  src={BH} alt="caro"/>
     </div>
-    <div>
-    <img style={contentStyle} src={BH} alt="caro"/>
+    <div style={contentStyle}>
+    <img  src={BH} alt="caro"/>
     </div>
-    <div>
-    <img style={contentStyle} src={BH} alt="caro"/>
+    <div style={contentStyle}>
+    <img  src={BH} alt="caro"/>
     </div>
-    <div>
-      <img style={contentStyle} src={BH} alt="caro"/>
+    <div style={contentStyle}>
+      <img  src={BH} alt="caro"/>
     </div>
   </Carousel>
     )
