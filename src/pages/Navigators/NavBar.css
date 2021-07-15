@@ -1,4 +1,3 @@
-
 .logo {
     float: left;
     width: 120px;
@@ -7,8 +6,3 @@
     background:url('../../assets/images/bh.png');
   }
   
-.ant-row-rtl #components-layout-demo-top 
-.logo {
-    float: right;
-    margin: 16px 0 16px 24px;
-  }
