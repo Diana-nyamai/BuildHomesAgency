@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavBar.css';
 import { Layout, Menu} from 'antd';
-import { updateLocale } from 'antd/node_modules/moment';
+
 
 
 const { Header } = Layout;
