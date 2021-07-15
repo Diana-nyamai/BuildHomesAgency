@@ -2,7 +2,7 @@ import React from 'react'
 import './NavBar.css';
 import { Layout, Menu, Breadcrumb } from 'antd';
 
-const { Header, Content, Footer } = Layout;
+const { Header } = Layout;
 
 function NavBar() {
     return (
