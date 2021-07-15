@@ -11,7 +11,7 @@
     background:url('../../assets/images/bh.png');
   }
   
-.ant-row-rtl #components-layout-demo-top 
+.ant-row-rtl 
 .logo {
     float: right;
     margin: 16px 0 16px 24px;
