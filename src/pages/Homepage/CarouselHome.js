@@ -1,14 +1,18 @@
 import React from 'react'
 import { Carousel } from 'antd';
 import BH from '../../assets/images/bhMain.png'
+import { makeStyles } from '@material-ui/core';
 
-const contentStyle = {
-    height: '500px',
-    color: '#000',
-    lineHeight: '400px',
-    textAlign: 'center',
-    background: '#fff',
-  };
+const useStyles = makeStyles(() =>({
+     contentStyle: {
+          height: '500px',
+          color: '#000',
+          lineHeight: '400px',
+          textAlign: 'center',
+          background: '#fff',
+  }
+}))
+ 
   
 
 function CarouselHome() {
