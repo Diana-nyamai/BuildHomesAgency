@@ -10,7 +10,7 @@ const contentStyle = {
   };
   
 
-function Carousel() {
+function CarouselHome() {
     return (
         <Carousel autoplay>
     <div>
@@ -29,4 +29,4 @@ function Carousel() {
     )
 }
 
-export default Carousel
+export default CarouselHome
