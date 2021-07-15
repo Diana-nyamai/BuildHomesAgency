@@ -10,10 +10,10 @@ function NavBar() {
         <Header style={{backgroundColor:'white'}}>
           <div className="logo" />
           <Menu theme="white" mode="horizontal" defaultSelectedKeys={['1']}>
-          <Menu.Item key="1">Home</Menu.Item>
-          <Menu.Item key="2">Properties</Menu.Item>
-          <Menu.Item key="3">Pages</Menu.Item>
-          <Menu.Item key="3">Shop</Menu.Item>
+          <Menu.Item key="1">HOME</Menu.Item>
+          <Menu.Item key="2">PROPERTY</Menu.Item>
+          <Menu.Item key="3">PAGES</Menu.Item>
+          <Menu.Item key="3">SHOP</Menu.Item>
           </Menu>
         </Header>
         
