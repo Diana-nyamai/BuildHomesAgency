@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css';
 import { Layout, Menu} from 'antd';
+import { HomeOutlined, UserOutlined } from "@ant-design/icons";
 
 const { Header } = Layout;
 
@@ -17,8 +18,8 @@ function NavBar() {
           </Menu>
 
           <Menu mode="horizontal">
-          <Menu.Item key="4">SHOP</Menu.Item>
-          <Menu.Item key="4">SHOP</Menu.Item>
+          <Menu.Item key="5">SHOP</Menu.Item>
+          <Menu.Item key="6">SHOP</Menu.Item>
           </Menu>
         </Header>
         
