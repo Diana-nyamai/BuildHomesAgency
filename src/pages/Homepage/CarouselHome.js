@@ -4,7 +4,7 @@ import BH from '../../assets/images/bhMain.png'
 
 const contentStyle = {
     height: '500px',
-    color: '#fff',
+    color: '#000',
     lineHeight: '400px',
     textAlign: 'center',
     background: '#fff',
