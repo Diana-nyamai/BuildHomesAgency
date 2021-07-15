@@ -9,22 +9,26 @@ const contentStyle = {
     textAlign: 'center',
     background: 'red',
   };
-  
+
+const image = {
+  background: 'red',
+  maxWidth: '100%'
+}
 
 function CarouselHome() {
     return (
         <Carousel autoplay>
     <div style={contentStyle}>
-      <img  src={BH} alt="caro"/>
+      <img style={image} src={BH} alt="caro"/>
     </div>
     <div style={contentStyle}>
-    <img  src={BH} alt="caro"/>
+    <img style={image} src={BH} alt="caro"/>
     </div>
     <div style={contentStyle}>
-    <img  src={BH} alt="caro"/>
+    <img style={image} src={BH} alt="caro"/>
     </div>
     <div style={contentStyle}>
-      <img  src={BH} alt="caro"/>
+      <img style={image} src={BH} alt="caro"/>
     </div>
   </Carousel>
     )
