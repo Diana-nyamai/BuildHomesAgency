@@ -17,7 +17,8 @@ function NavBar() {
           </Menu>
 
           <Menu mode="horizontal">
-          <Menu.Item key="4" style={{float:'right'}}>SHOP</Menu.Item>
+          <Menu.Item key="4">SHOP</Menu.Item>
+          <Menu.Item key="4">SHOP</Menu.Item>
           </Menu>
         </Header>
         
