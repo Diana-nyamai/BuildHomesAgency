@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavBar.css';
-import { Layout, Menuu} from 'antd';
+import { Layout, Menu} from 'antd';
 
 const { Header } = Layout;
 
