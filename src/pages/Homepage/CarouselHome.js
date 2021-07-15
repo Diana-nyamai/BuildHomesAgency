@@ -5,7 +5,7 @@ import BH from '../../assets/images/bhMain.png'
 const contentStyle = {
     height: '160px',
     color: '#fff',
-    lineHeight: '160px',
+    lineHeight: '400px',
     textAlign: 'center',
     background: '#364d79',
   };
@@ -15,7 +15,7 @@ function CarouselHome() {
     return (
         <Carousel autoplay>
     <div>
-      <h3 style={contentStyle}><img src={BH} alt="caro"/></h3>
+      <h3 style={contentStyle}><img style={contentStyle} src={BH} alt="caro"/></h3>
     </div>
     <div>
       <h3 style={contentStyle}>2</h3>
