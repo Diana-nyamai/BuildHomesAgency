@@ -19,13 +19,10 @@ function CarouselHome() {
     return (
         <Carousel autoplay>
     <div style={contentStyle}>
-      <img style={{maxWidth: '100%'}} src={BH} alt="caro"/>
+      <img style={{maxWidth: '100%',margin: 'auto'}} src={BH} alt="caro"/>
     </div>
     <div style={contentStyle}>
    <h3>2</h3>
-    </div>
-    <div style={contentStyle}>
-    <h3>2</h3>
     </div>
     <div style={contentStyle}>
     <h3>2</h3>
