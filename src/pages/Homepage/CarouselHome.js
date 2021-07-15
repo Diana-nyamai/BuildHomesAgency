@@ -10,25 +10,26 @@ const useStyles = makeStyles(() =>({
           lineHeight: '400px',
           textAlign: 'center',
           background: '#fff',
-  }
+  },
 }))
  
   
 
 function CarouselHome() {
+  const Classes = useStyles();
     return (
         <Carousel autoplay>
     <div>
-      <img style={contentStyle} src={BH} alt="caro"/>
+      <img style={Classes.contentStyle} src={BH} alt="caro"/>
     </div>
     <div>
-    <img style={contentStyle} src={BH} alt="caro"/>
+    <img style={Classes.contentStyle} src={BH} alt="caro"/>
     </div>
     <div>
-    <img style={contentStyle} src={BH} alt="caro"/>
+    <img style={Classes.contentStyle} src={BH} alt="caro"/>
     </div>
     <div>
-    <img style={contentStyle} src={BH} alt="caro"/>
+    <img style={Classes.contentStyle} src={BH} alt="caro"/>
     </div>
   </Carousel>
     )
