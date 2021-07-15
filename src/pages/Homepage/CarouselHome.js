@@ -15,16 +15,16 @@ function CarouselHome() {
     return (
         <Carousel autoplay>
     <div>
-      <h3 style={contentStyle}><img style={contentStyle} src={BH} alt="caro"/></h3>
+      <img style={contentStyle} src={BH} alt="caro"/>
     </div>
     <div>
-      <h3 style={contentStyle}>2</h3>
+    <img style={contentStyle} src={BH} alt="caro"/>
     </div>
     <div>
-      <h3 style={contentStyle}>3</h3>
+    <img style={contentStyle} src={BH} alt="caro"/>
     </div>
     <div>
-      <h3 style={contentStyle}>4</h3>
+    <img style={contentStyle} src={BH} alt="caro"/>
     </div>
   </Carousel>
     )
