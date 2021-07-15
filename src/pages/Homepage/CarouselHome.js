@@ -1,6 +1,8 @@
 import React from 'react'
 import { Carousel } from 'antd';
-import BH from '../../assets/images/bhMain.png'
+import prop1 from '../../assets/images/property/prop1.png'
+import prop2 from '../../assets/images/property/prop2.png'
+import prop3 from '../../assets/images/property/prop3.png'
 
 const contentStyle = {
     height: '500px',
@@ -19,13 +21,13 @@ function CarouselHome() {
     return (
         <Carousel autoplay>
     <div style={contentStyle}>
-      <img style={{maxWidth: '100%',margin: 'auto'}} src={BH} alt="caro"/>
+      <img style={{maxWidth: '100%',margin: 'auto'}} src={prop1} alt="caro"/>
     </div>
     <div style={contentStyle}>
-   <h3>2</h3>
+    <img style={{maxWidth: '100%',margin: 'auto'}} src={prop1} alt="caro"/>
     </div>
     <div style={contentStyle}>
-    <h3>2</h3>
+    <img style={{maxWidth: '100%',margin: 'auto'}} src={prop1} alt="caro"/>
     </div>
   </Carousel>
     )
