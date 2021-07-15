@@ -5,4 +5,6 @@
     margin: 16px 24px 16px 0;
     background:url('../../assets/images/BH.png');
   }
-  
+  .logo:hover{
+      cursor: pointer;
+  }
