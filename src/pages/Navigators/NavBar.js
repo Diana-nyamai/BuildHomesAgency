@@ -7,7 +7,7 @@ const { Header, Content, Footer } = Layout;
 function NavBar() {
     return (
         <Layout className="layout">
-        <Header style={{color:'white'}}>
+        <Header style={{backgroundColor:'white'}}>
           <div className="logo" />
           <Menu theme="white" mode="horizontal" defaultSelectedKeys={['2']}>
           <Menu.Item key="1">nav 1</Menu.Item>
