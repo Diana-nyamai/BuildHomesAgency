@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'antd';
-import BH from '../../assets/images/BH.png'
+import BH from '../../assets/images/bhMain.png'
 
 const contentStyle = {
     height: '160px',
