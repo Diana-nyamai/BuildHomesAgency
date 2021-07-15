@@ -3,7 +3,7 @@ import { Carousel } from 'antd';
 import BH from '../../assets/images/bhMain.png'
 
 const contentStyle = {
-    height: '160px',
+    height: '500px',
     color: '#fff',
     lineHeight: '400px',
     textAlign: 'center',
