@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavBar.css';
 import { Layout, Menu} from 'antd';
-imort {Link} from '@material-ui/core'
+import {Link} from '@material-ui/core'
 
 
 
