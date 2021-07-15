@@ -11,7 +11,7 @@ function NavBar() {
     return (
         <Layout className="layout">
         <Header style={{backgroundColor:'white'}}>
-          <div className="logo" />
+          <div className="logo"><Link href="/"></Link></div>
           <Menu theme="white" mode="horizontal" defaultSelectedKeys={['1']}>
           <Menu.Item key="1"> <Link href="/">HOME</Link> </Menu.Item>
           <Menu.Item key="2">PROPERTY</Menu.Item>
