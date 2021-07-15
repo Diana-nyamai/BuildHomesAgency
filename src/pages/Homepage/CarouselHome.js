@@ -7,7 +7,7 @@ const contentStyle = {
     color: '#000',
     lineHeight: '400px',
     textAlign: 'center',
-    background: '#000',
+    background: 'red',
   };
   
 
