@@ -10,10 +10,6 @@ const contentStyle = {
     background: 'red',
   };
 
-const image = {
-  background: 'red',
-  maxWidth: '100%'
-}
 
 function CarouselHome() {
     return (
