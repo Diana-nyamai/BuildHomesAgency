@@ -16,7 +16,7 @@ function NavBar() {
           <Menu.Item key="1"> <Link href="/">HOME</Link> </Menu.Item>
           <Menu.Item key="2">PROPERTY</Menu.Item>
           <Menu.Item key="3">PAGES</Menu.Item>
-          <Menu.Item key="3">PAGES</Menu.Item>
+          <Menu.Item key="3">GALLERY</Menu.Item>
           <Menu.Item key="4" >SHOP</Menu.Item>
           </Menu>
 
