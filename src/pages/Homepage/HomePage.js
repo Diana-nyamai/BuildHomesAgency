@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Gallery from '../Gallery/Gallery'
 import CarouselHome from './CarouselHome'
 
 export class HomePage extends Component {
@@ -6,6 +7,7 @@ export class HomePage extends Component {
         return (
             <div>
             <CarouselHome/>
+            <Gallery/>
             </div>
         )
     }
