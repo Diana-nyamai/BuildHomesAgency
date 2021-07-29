@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import AboutPage from '../Aboutpage/AboutPage'
 import Gallery from '../Gallery/Gallery'
 import CarouselHome from './CarouselHome'
 import Introduction from './Introduction'
