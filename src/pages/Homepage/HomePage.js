@@ -11,7 +11,6 @@ export class HomePage extends Component {
             <CarouselHome/>
             <Introduction/>
             <Gallery/>
-            <AboutPage/>
             </div>
         )
     }
