@@ -9,7 +9,7 @@ const style = {
   width: 40,
   lineHeight: '40px',
   borderRadius: 4,
-  backgroundColor: 'red',
+  backgroundColor: 'black',
   color: '#fff',
   textAlign: 'center',
   fontSize: 14,
