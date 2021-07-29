@@ -13,7 +13,7 @@ function Introduction() {
                      Duis sed odio sit amet nibh vulpu tate cursus amet lorem mauris.</Typography>
                </Grid>
                <Grid xs={12} sm={6}>
-               <div style={{}}><img  src={prop2} alt="property"/></div>
+               <div style={{padding: 20}}><img  src={prop2} alt="property"/></div>
                
                </Grid>
             </Grid>
