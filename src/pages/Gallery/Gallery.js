@@ -6,7 +6,7 @@ const style = {
     width: 40,
     lineHeight: '40px',
     borderRadius: 4,
-    backgroundColor: '#1088e9',
+    backgroundColor: 'red',
     color: '#fff',
     textAlign: 'center',
     fontSize: 14,
