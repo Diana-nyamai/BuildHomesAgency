@@ -5,7 +5,7 @@ import Introduction from '../Homepage/Introduction'
 function Gallery() {
     return (
         <div>
-          <h1>OUR GALLERY</h1>
+          <h1 >OUR GALLERY</h1>
           <Introduction/>
    
   </div>
