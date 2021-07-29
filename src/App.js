@@ -18,7 +18,7 @@ const style = {
 function App() {
   return (
     <Router>
-    <div className="App">
+    <div className="App" style={{ height: '600vh', padding: 8 }}>
     <NavBar/>
      <Route path='/' component={HomePage}/>
      <BackTop>
