@@ -20,7 +20,10 @@ function App() {
     <Router>
     <div className="App">
     <NavBar/>
-     <Route path='/' component={HomePage}/>u
+     <Route path='/' component={HomePage}/>
+     <BackTop>
+     <div style={style}>UP</div>
+   </BackTop>
     </div>
     </Router>
     
