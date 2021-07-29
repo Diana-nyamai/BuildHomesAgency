@@ -2,7 +2,7 @@ import React from 'react'
 
 function Introduction() {
     return (
-        <div>
+        <div style={{padding: 50}}>
             
         </div>
     )
