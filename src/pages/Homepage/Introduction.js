@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, Typography} from '@material-ui/core';
-import {prop2} from '../../assets/images/property/prop3.png';
+import prop2 from "../../assets/images/property/prop2.png"
 
 function Introduction() {
     return (
@@ -13,7 +13,7 @@ function Introduction() {
                      Duis sed odio sit amet nibh vulpu tate cursus amet lorem mauris.</Typography>
                </Grid>
                <Grid xs={12} sm={6}>
-               <img src={prop2} alt="property"/>
+               <img  src={prop2} alt="property"/>
                </Grid>
             </Grid>
         </div>
