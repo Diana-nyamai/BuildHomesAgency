@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, Typography} from '@material-ui/core';
-import {prop2} from '../../assets/images/property/prop2.png';
+import {prop2} from '../../assets/images/property/prop3.png';
 
 function Introduction() {
     return (
