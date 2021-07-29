@@ -6,6 +6,7 @@ function Introduction() {
     return (
         <div style={{padding: 50}}>
             <Grid container>
+            <h1>INTRODUCTION</h1>
                <Grid xs={12} sm={6}>
                     <h1 style={{maxWidth: 450}}>Architecture with people in mind.</h1>
                     <Typography>Lorem ipsum proin gravida nibh vel velit auctor aliollicitudin, 
