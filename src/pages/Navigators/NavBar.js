@@ -13,11 +13,11 @@ function NavBar() {
         <Header style={{backgroundColor:'white'}}>
           <div className="logo"><Link href="/"></Link></div>
           <Menu theme="white" mode="horizontal" defaultSelectedKeys={['1']}>
-          <Menu.Item key="1"> <Link href="/">HOME</Link> </Menu.Item>
+          <Menu.Item key="1"> <Link href="/" className="link">HOME</Link> </Menu.Item>
           <Menu.Item key="2">PROPERTY</Menu.Item>
           <Menu.Item key="3">PAGES</Menu.Item>
-          <Menu.Item key="3">GALLERY</Menu.Item>
-          <Menu.Item key="4" >SHOP</Menu.Item>
+          <Menu.Item key="4">GALLERY</Menu.Item>
+          <Menu.Item key="5" >SHOP</Menu.Item>
           </Menu>
 
         </Header>
