@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'antd';
-import prop1 from '../../src/assets/images/property/prop1';
+import prop1 from '../../src/assets/images/property/prop1.png';
 
 const contentStyle = {
     height: '500px',
